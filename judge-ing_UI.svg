@@ -1,0 +1,274 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1400">
+  <!-- Background -->
+  <rect width="800" height="1400" fill="#ffffff"/>
+  
+  <!-- Title Section -->
+  <rect x="0" y="0" width="800" height="80" fill="#f8fafc"/>
+  <text x="400" y="50" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#0f172a">Sports Judge Connect - With Dark Mode</text>
+  
+  <!-- Light Mode Section -->
+  <rect x="50" y="100" width="700" height="600" fill="#ffffff" rx="12" ry="12" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="90" y="140" font-family="Arial" font-size="20" font-weight="bold" fill="#0f172a">Light Mode</text>
+  <line x1="90" y1="155" x2="200" y2="155" stroke="#3b82f6" stroke-width="3"/>
+  
+  <!-- Light Mode Main Dashboard -->
+  <rect x="90" y="180" width="280" height="500" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" rx="12" ry="12"/>
+  
+  <!-- Status Bar -->
+  <rect x="90" y="180" width="280" height="24" fill="#f8fafc" rx="12" ry="12"/>
+  <circle cx="100" cy="192" r="2" fill="#64748b"/>
+  <circle cx="108" cy="192" r="2" fill="#64748b"/>
+  <circle cx="116" cy="192" r="2" fill="#64748b"/>
+  <text x="355" y="193" font-family="Arial" font-size="10" text-anchor="end" fill="#64748b">9:41</text>
+  
+  <!-- Light Mode Header with Theme Toggle -->
+  <rect x="90" y="204" width="280" height="70" fill="#ffffff"/>
+  <text x="115" y="230" font-family="Arial" font-size="16" font-weight="bold" fill="#0f172a">Welcome back, Alex</text>
+  <text x="115" y="250" font-family="Arial" font-size="12" fill="#64748b">Gymnastics Judge • Level 8</text>
+  <circle cx="330" cy="235" r="20" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="330" y="240" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#3b82f6">A</text>
+  
+  <!-- Theme Toggle Button (Light Mode) -->
+  <circle cx="330" cy="192" r="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <path d="M326,192 A4,4 0 1,1 334,192" fill="none" stroke="#64748b" stroke-width="1.5"/>
+  <circle cx="330" cy="192" r="3" fill="#64748b"/>
+  
+  <!-- Light Mode Content -->
+  <rect x="100" y="280" width="260" height="80" fill="#f8fafc" rx="10" ry="10"/>
+  <text x="125" y="305" font-family="Arial" font-size="14" font-weight="bold" fill="#0f172a">Upcoming Events</text>
+  <circle cx="115" cy="305" r="6" fill="#3b82f6"/>
+  <line x1="125" y1="310" x2="220" y2="310" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="125" y="330" font-family="Arial" font-size="12" fill="#334155">Regional Championships</text>
+  <text x="125" y="345" font-family="Arial" font-size="10" fill="#64748b">March 20-21 • City Arena • $400</text>
+  
+  <rect x="100" y="370" width="260" height="80" fill="#f8fafc" rx="10" ry="10"/>
+  <text x="125" y="395" font-family="Arial" font-size="14" font-weight="bold" fill="#0f172a">Opportunities</text>
+  <circle cx="115" cy="395" r="6" fill="#10b981"/>
+  <line x1="125" y1="400" x2="210" y2="400" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="125" y="420" font-family="Arial" font-size="12" fill="#334155">State Finals - 3 positions</text>
+  <text x="125" y="435" font-family="Arial" font-size="10" fill="#64748b">April 15-17 • University Arena</text>
+  
+  <!-- Stats Row - Light -->
+  <rect x="100" y="460" width="125" height="55" fill="#eff6ff" rx="10" ry="10"/>
+  <text x="115" y="480" font-family="Arial" font-size="10" fill="#3b82f6">EARNINGS YTD</text>
+  <text x="115" y="500" font-family="Arial" font-size="16" font-weight="bold" fill="#0f172a">$4,250</text>
+  
+  <rect x="235" y="460" width="125" height="55" fill="#f0fdf4" rx="10" ry="10"/>
+  <text x="250" y="480" font-family="Arial" font-size="10" fill="#10b981">RATING</text>
+  <text x="250" y="500" font-family="Arial" font-size="16" font-weight="bold" fill="#0f172a">4.9/5.0</text>
+  
+  <!-- Navigation - Light -->
+  <rect x="90" y="525" width="280" height="15" fill="#ffffff"/>
+  <rect x="115" y="535" width="230" height="1" fill="#e2e8f0"/>
+  <circle cx="150" cy="542" r="4" fill="#3b82f6"/>
+  <circle cx="230" cy="542" r="3" fill="#e2e8f0"/>
+  <circle cx="310" cy="542" r="3" fill="#e2e8f0"/>
+  
+  <!-- Button Row - Light -->
+  <rect x="100" y="555" width="260" height="60" fill="#ffffff"/>
+  <rect x="120" y="565" width="100" height="40" fill="#3b82f6" rx="20" ry="20"/>
+  <text x="170" y="590" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">My Schedule</text>
+  <rect x="240" y="565" width="100" height="40" fill="#f1f5f9" rx="20" ry="20" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="290" y="590" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#64748b">Messages</text>
+  
+  <!-- Light Mode Organizer UI -->
+  <rect x="430" y="180" width="280" height="500" fill="#ffffff" stroke="#e2e8f0" stroke-width="1" rx="12" ry="12"/>
+  
+  <!-- Status Bar -->
+  <rect x="430" y="180" width="280" height="24" fill="#f8fafc" rx="12" ry="12"/>
+  <circle cx="440" cy="192" r="2" fill="#64748b"/>
+  <circle cx="448" cy="192" r="2" fill="#64748b"/>
+  <circle cx="456" cy="192" r="2" fill="#64748b"/>
+  <text x="695" y="193" font-family="Arial" font-size="10" text-anchor="end" fill="#64748b">9:41</text>
+  
+  <!-- Light Mode Organizer Header with Theme Toggle -->
+  <rect x="430" y="204" width="280" height="70" fill="#ffffff"/>
+  <text x="455" y="230" font-family="Arial" font-size="16" font-weight="bold" fill="#0f172a">Hello, Madison</text>
+  <text x="455" y="250" font-family="Arial" font-size="12" fill="#64748b">Northwest Athletics Association</text>
+  <circle cx="670" cy="235" r="20" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="670" y="240" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#10b981">M</text>
+  
+  <!-- Theme Toggle Button (Light Mode) -->
+  <circle cx="670" cy="192" r="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <path d="M666,192 A4,4 0 1,1 674,192" fill="none" stroke="#64748b" stroke-width="1.5"/>
+  <circle cx="670" cy="192" r="3" fill="#64748b"/>
+  
+  <!-- Organizer Light Mode Content -->
+  <rect x="440" y="280" width="260" height="80" fill="#f8fafc" rx="10" ry="10"/>
+  <text x="465" y="305" font-family="Arial" font-size="14" font-weight="bold" fill="#0f172a">My Events</text>
+  <circle cx="455" cy="305" r="6" fill="#10b981"/>
+  <line x1="465" y1="310" x2="550" y2="310" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="465" y="330" font-family="Arial" font-size="12" fill="#334155">City Championships</text>
+  <text x="465" y="345" font-family="Arial" font-size="10" fill="#64748b">March 30-31 • 2/5 judges confirmed</text>
+  
+  <rect x="440" y="370" width="260" height="80" fill="#f8fafc" rx="10" ry="10"/>
+  <text x="465" y="395" font-family="Arial" font-size="14" font-weight="bold" fill="#0f172a">Find Judges</text>
+  <circle cx="455" cy="395" r="6" fill="#3b82f6"/>
+  <rect x="465" y="415" width="215" height="24" fill="#ffffff" rx="12" ry="12" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="485" y="430" font-family="Arial" font-size="10" fill="#94a3b8">Search by sport or certification...</text>
+  <circle cx="665" cy="427" r="8" fill="#f1f5f9"/>
+  <text x="665" y="431" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#64748b">⌕</text>
+  
+  <!-- Stats Row - Light Organizer -->
+  <rect x="440" y="460" width="125" height="55" fill="#fef2f2" rx="10" ry="10"/>
+  <text x="455" y="480" font-family="Arial" font-size="10" fill="#ef4444">BUDGET</text>
+  <text x="455" y="500" font-family="Arial" font-size="16" font-weight="bold" fill="#0f172a">$3,800</text>
+  
+  <rect x="575" y="460" width="125" height="55" fill="#f0fdf4" rx="10" ry="10"/>
+  <text x="590" y="480" font-family="Arial" font-size="10" fill="#10b981">CREATE EVENT</text>
+  <circle cx="637" cy="500" r="12" fill="#10b981"/>
+  <text x="637" y="505" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">+</text>
+  
+  <!-- Navigation - Light Organizer -->
+  <rect x="430" y="525" width="280" height="15" fill="#ffffff"/>
+  <rect x="455" y="535" width="230" height="1" fill="#e2e8f0"/>
+  <circle cx="490" cy="542" r="4" fill="#10b981"/>
+  <circle cx="570" cy="542" r="3" fill="#e2e8f0"/>
+  <circle cx="650" cy="542" r="3" fill="#e2e8f0"/>
+  
+  <!-- Button Row - Light Organizer -->
+  <rect x="440" y="555" width="260" height="60" fill="#ffffff"/>
+  <rect x="460" y="565" width="100" height="40" fill="#10b981" rx="20" ry="20"/>
+  <text x="510" y="590" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">My Events</text>
+  <rect x="580" y="565" width="100" height="40" fill="#f1f5f9" rx="20" ry="20" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="630" y="590" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#64748b">Analytics</text>
+  
+  <!-- Dark Mode Section -->
+  <rect x="50" y="730" width="700" height="600" fill="#0f172a" rx="12" ry="12" stroke="#1e293b" stroke-width="1"/>
+  <text x="90" y="770" font-family="Arial" font-size="20" font-weight="bold" fill="#f8fafc">Dark Mode</text>
+  <line x1="90" y1="785" x2="200" y2="785" stroke="#3b82f6" stroke-width="3"/>
+  
+  <!-- Dark Mode Main Dashboard -->
+  <rect x="90" y="810" width="280" height="500" fill="#1e293b" stroke="#334155" stroke-width="1" rx="12" ry="12"/>
+  
+  <!-- Status Bar - Dark -->
+  <rect x="90" y="810" width="280" height="24" fill="#0f172a" rx="12" ry="12"/>
+  <circle cx="100" cy="822" r="2" fill="#94a3b8"/>
+  <circle cx="108" cy="822" r="2" fill="#94a3b8"/>
+  <circle cx="116" cy="822" r="2" fill="#94a3b8"/>
+  <text x="355" y="823" font-family="Arial" font-size="10" text-anchor="end" fill="#94a3b8">9:41</text>
+  
+  <!-- Dark Mode Header with Theme Toggle -->
+  <rect x="90" y="834" width="280" height="70" fill="#1e293b"/>
+  <text x="115" y="860" font-family="Arial" font-size="16" font-weight="bold" fill="#f8fafc">Welcome back, Alex</text>
+  <text x="115" y="880" font-family="Arial" font-size="12" fill="#94a3b8">Gymnastics Judge • Level 8</text>
+  <circle cx="330" cy="865" r="20" fill="#334155" stroke="#475569" stroke-width="1"/>
+  <text x="330" y="870" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#60a5fa">A</text>
+  
+  <!-- Theme Toggle Button (Dark Mode) -->
+  <circle cx="330" cy="822" r="10" fill="#334155" stroke="#475569" stroke-width="1"/>
+  <circle cx="330" cy="822" r="5" fill="#60a5fa"/>
+  
+  <!-- Dark Mode Content -->
+  <rect x="100" y="910" width="260" height="80" fill="#334155" rx="10" ry="10"/>
+  <text x="125" y="935" font-family="Arial" font-size="14" font-weight="bold" fill="#f8fafc">Upcoming Events</text>
+  <circle cx="115" cy="935" r="6" fill="#60a5fa"/>
+  <line x1="125" y1="940" x2="220" y2="940" stroke="#475569" stroke-width="1"/>
+  <text x="125" y="960" font-family="Arial" font-size="12" fill="#e2e8f0">Regional Championships</text>
+  <text x="125" y="975" font-family="Arial" font-size="10" fill="#94a3b8">March 20-21 • City Arena • $400</text>
+  
+  <rect x="100" y="1000" width="260" height="80" fill="#334155" rx="10" ry="10"/>
+  <text x="125" y="1025" font-family="Arial" font-size="14" font-weight="bold" fill="#f8fafc">Opportunities</text>
+  <circle cx="115" cy="1025" r="6" fill="#34d399"/>
+  <line x1="125" y1="1030" x2="210" y2="1030" stroke="#475569" stroke-width="1"/>
+  <text x="125" y="1050" font-family="Arial" font-size="12" fill="#e2e8f0">State Finals - 3 positions</text>
+  <text x="125" y="1065" font-family="Arial" font-size="10" fill="#94a3b8">April 15-17 • University Arena</text>
+  
+  <!-- Stats Row - Dark -->
+  <rect x="100" y="1090" width="125" height="55" fill="#1e40af" rx="10" ry="10"/>
+  <text x="115" y="1110" font-family="Arial" font-size="10" fill="#93c5fd">EARNINGS YTD</text>
+  <text x="115" y="1130" font-family="Arial" font-size="16" font-weight="bold" fill="#f8fafc">$4,250</text>
+  
+  <rect x="235" y="1090" width="125" height="55" fill="#065f46" rx="10" ry="10"/>
+  <text x="250" y="1110" font-family="Arial" font-size="10" fill="#6ee7b7">RATING</text>
+  <text x="250" y="1130" font-family="Arial" font-size="16" font-weight="bold" fill="#f8fafc">4.9/5.0</text>
+  
+  <!-- Navigation - Dark -->
+  <rect x="90" y="1155" width="280" height="15" fill="#1e293b"/>
+  <rect x="115" y="1165" width="230" height="1" fill="#475569"/>
+  <circle cx="150" cy="1172" r="4" fill="#60a5fa"/>
+  <circle cx="230" cy="1172" r="3" fill="#475569"/>
+  <circle cx="310" cy="1172" r="3" fill="#475569"/>
+  
+  <!-- Button Row - Dark -->
+  <rect x="100" y="1185" width="260" height="60" fill="#1e293b"/>
+  <rect x="120" y="1195" width="100" height="40" fill="#3b82f6" rx="20" ry="20"/>
+  <text x="170" y="1220" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">My Schedule</text>
+  <rect x="240" y="1195" width="100" height="40" fill="#334155" rx="20" ry="20" stroke="#475569" stroke-width="1"/>
+  <text x="290" y="1220" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#e2e8f0">Messages</text>
+  
+  <!-- Dark Mode Organizer UI -->
+  <rect x="430" y="810" width="280" height="500" fill="#1e293b" stroke="#334155" stroke-width="1" rx="12" ry="12"/>
+  
+  <!-- Status Bar - Dark Organizer -->
+  <rect x="430" y="810" width="280" height="24" fill="#0f172a" rx="12" ry="12"/>
+  <circle cx="440" cy="822" r="2" fill="#94a3b8"/>
+  <circle cx="448" cy="822" r="2" fill="#94a3b8"/>
+  <circle cx="456" cy="822" r="2" fill="#94a3b8"/>
+  <text x="695" y="823" font-family="Arial" font-size="10" text-anchor="end" fill="#94a3b8">9:41</text>
+  
+  <!-- Dark Mode Organizer Header with Theme Toggle -->
+  <rect x="430" y="834" width="280" height="70" fill="#1e293b"/>
+  <text x="455" y="860" font-family="Arial" font-size="16" font-weight="bold" fill="#f8fafc">Hello, Madison</text>
+  <text x="455" y="880" font-family="Arial" font-size="12" fill="#94a3b8">Northwest Athletics Association</text>
+  <circle cx="670" cy="865" r="20" fill="#334155" stroke="#475569" stroke-width="1"/>
+  <text x="670" y="870" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#34d399">M</text>
+  
+  <!-- Theme Toggle Button (Dark Mode Organizer) -->
+  <circle cx="670" cy="822" r="10" fill="#334155" stroke="#475569" stroke-width="1"/>
+  <circle cx="670" cy="822" r="5" fill="#34d399"/>
+  
+  <!-- Organizer Dark Mode Content -->
+  <rect x="440" y="910" width="260" height="80" fill="#334155" rx="10" ry="10"/>
+  <text x="465" y="935" font-family="Arial" font-size="14" font-weight="bold" fill="#f8fafc">My Events</text>
+  <circle cx="455" cy="935" r="6" fill="#34d399"/>
+  <line x1="465" y1="940" x2="550" y2="940" stroke="#475569" stroke-width="1"/>
+  <text x="465" y="960" font-family="Arial" font-size="12" fill="#e2e8f0">City Championships</text>
+  <text x="465" y="975" font-family="Arial" font-size="10" fill="#94a3b8">March 30-31 • 2/5 judges confirmed</text>
+  
+  <rect x="440" y="1000" width="260" height="80" fill="#334155" rx="10" ry="10"/>
+  <text x="465" y="1025" font-family="Arial" font-size="14" font-weight="bold" fill="#f8fafc">Find Judges</text>
+  <circle cx="455" cy="1025" r="6" fill="#60a5fa"/>
+  <rect x="465" y="1045" width="215" height="24" fill="#1e293b" rx="12" ry="12" stroke="#475569" stroke-width="1"/>
+  <text x="485" y="1060" font-family="Arial" font-size="10" fill="#64748b">Search by sport or certification...</text>
+  <circle cx="665" cy="1057" r="8" fill="#334155"/>
+  <text x="665" y="1061" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#94a3b8">⌕</text>
+  
+  <!-- Stats Row - Dark Organizer -->
+  <rect x="440" y="1090" width="125" height="55" fill="#7f1d1d" rx="10" ry="10"/>
+  <text x="455" y="1110" font-family="Arial" font-size="10" fill="#fca5a5">BUDGET</text>
+  <text x="455" y="1130" font-family="Arial" font-size="16" font-weight="bold" fill="#f8fafc">$3,800</text>
+  
+  <rect x="575" y="1090" width="125" height="55" fill="#065f46" rx="10" ry="10"/>
+  <text x="590" y="1110" font-family="Arial" font-size="10" fill="#6ee7b7">CREATE EVENT</text>
+  <circle cx="637" y="1130" r="12" fill="#10b981"/>
+  <text x="637" y="1135" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">+</text>
+  
+  <!-- Navigation - Dark Organizer -->
+  <rect x="430" y="1155" width="280" height="15" fill="#1e293b"/>
+  <rect x="455" y="1165" width="230" height="1" fill="#475569"/>
+  <circle cx="490" cy="1172" r="4" fill="#34d399"/>
+  <circle cx="570" cy="1172" r="3" fill="#475569"/>
+  <circle cx="650" cy="1172" r="3" fill="#475569"/>
+  
+  <!-- Button Row - Dark Organizer -->
+  <rect x="440" y="1185" width="260" height="60" fill="#1e293b"/>
+  <rect x="460" y="1195" width="100" height="40" fill="#10b981" rx="20" ry="20"/>
+  <text x="510" y="1220" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">My Events</text>
+  <rect x="580" y="1195" width="100" height="40" fill="#334155" rx="20" ry="20" stroke="#475569" stroke-width="1"/>
+  <text x="630" y="1220" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="#e2e8f0">Analytics</text>
+  
+  <!-- Mode Switching Animation Frames -->
+  <text x="400" y="1355" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#0f172a">Dark Mode Toggle Flow</text>
+  <circle cx="350" cy="1380" r="15" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+  <path d="M346,1380 A4,4 0 1,1 354,1380" fill="none" stroke="#64748b" stroke-width="1.5"/>
+  <circle cx="350" cy="1380" r="3" fill="#64748b"/>
+  <text x="280" y="1382" font-family="Arial" font-size="12" text-anchor="end" fill="#64748b">Light Mode</text>
+  
+  <line x1="375" y1="1380" x2="425" y2="1380" stroke="#64748b" stroke-width="1" stroke-dasharray="4,2"/>
+  <polygon points="420,1376 430,1380 420,1384" fill="#64748b"/>
+  
+  <circle cx="450" cy="1380" r="15" fill="#334155" stroke="#475569" stroke-width="1"/>
+  <circle cx="450" cy="1380" r="5" fill="#60a5fa"/>
+  <text x="520" y="1382" font-family="Arial" font-size="12" text-anchor="start" fill="#64748b">Dark Mode</text>
+</svg>

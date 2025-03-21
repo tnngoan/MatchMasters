@@ -1,0 +1,147 @@
+
+// Bookings collection
+db.bookings.insertMany([
+    {
+      _id: ObjectId("63d0fe4f5311236168a109fa"),
+      eventId: ObjectId("62d0fe4f5311236168a109ea"), // National Moot Court Competition
+      judgeId: ObjectId("60d0fe4f5311236168a109ca"), // John Doe
+      status: "confirmed",
+      role: "panel judge",
+      assignedSessions: [
+        {
+          date: new Date("2024-04-15T13:00:00Z"),
+          duration: 180, // minutes
+          room: "Grand Ballroom A",
+          topic: "First Amendment Rights"
+        },
+        {
+          date: new Date("2024-04-16T10:00:00Z"),
+          duration: 180,
+          room: "Grand Ballroom B",
+          topic: "Due Process Claims"
+        }
+      ],
+      specialRequirements: "Requires access to legal reference materials",
+      compensationDetails: {
+        amount: 500,
+        paymentStatus: "pending",
+        paymentMethod: "direct deposit"
+      },
+      createdAt: new Date("2024-03-01T11:45:00Z"),
+      updatedAt: new Date("2024-03-10T09:30:00Z"),
+      feedback: null
+    },
+    {
+      _id: ObjectId("63d0fe4f5311236168a109fb"),
+      eventId: ObjectId("62d0fe4f5311236168a109eb"), // International Patent Law Symposium
+      judgeId: ObjectId("60d0fe4f5311236168a109ce"), // David Wilson
+      status: "confirmed",
+      role: "lead judge",
+      assignedSessions: [
+        {
+          date: new Date("2024-05-20T09:00:00Z"),
+          duration: 240,
+          room: "Innovation Hall",
+          topic: "Software Patent Disputes"
+        },
+        {
+          date: new Date("2024-05-21T09:00:00Z"),
+          duration: 240,
+          room: "Innovation Hall",
+          topic: "Pharmaceutical Patent Challenges"
+        }
+      ],
+      specialRequirements: "Needs high-speed internet access for digital exhibits",
+      compensationDetails: {
+        amount: 600,
+        paymentStatus: "pending",
+        paymentMethod: "check"
+      },
+      createdAt: new Date("2024-03-05T14:20:00Z"),
+      updatedAt: new Date("2024-03-15T16:45:00Z"),
+      feedback: null
+    },
+    {
+      _id: ObjectId("63d0fe4f5311236168a109fc"),
+      eventId: ObjectId("62d0fe4f5311236168a109ec"), // State Bar Mock Trial Competition
+      judgeId: ObjectId("60d0fe4f5311236168a109cc"), // Robert Johnson
+      status: "confirmed",
+      role: "evaluator",
+      assignedSessions: [
+        {
+          date: new Date("2024-06-10T10:00:00Z"),
+          duration: 180,
+          room: "Courtroom 3",
+          topic: "Criminal Procedure"
+        },
+        {
+          date: new Date("2024-06-11T13:00:00Z"),
+          duration: 180,
+          room: "Courtroom 2",
+          topic: "Evidence Admissibility"
+        }
+      ],
+      specialRequirements: "Prefers hardcopy materials for review",
+      compensationDetails: {
+        amount: 350,
+        paymentStatus: "pending",
+        paymentMethod: "direct deposit"
+      },
+      createdAt: new Date("2024-03-08T10:30:00Z"),
+      updatedAt: new Date("2024-03-17T11:15:00Z"),
+      feedback: null
+    },
+    {
+      _id: ObjectId("63d0fe4f5311236168a109fd"),
+      eventId: ObjectId("62d0fe4f5311236168a109ea"), // National Moot Court Competition
+      judgeId: ObjectId("60d0fe4f5311236168a109cc"), // Robert Johnson
+      status: "confirmed",
+      role: "panel judge",
+      assignedSessions: [
+        {
+          date: new Date("2024-04-17T09:00:00Z"),
+          duration: 180,
+          room: "Grand Ballroom C",
+          topic: "Equal Protection Claims"
+        },
+        {
+          date: new Date("2024-04-18T13:00:00Z"),
+          duration: 180,
+          room: "Grand Ballroom A",
+          topic: "Final Round Arguments"
+        }
+      ],
+      specialRequirements: "Requires vegetarian meal options",
+      compensationDetails: {
+        amount: 500,
+        paymentStatus: "pending",
+        paymentMethod: "direct deposit"
+      },
+      createdAt: new Date("2024-03-12T15:40:00Z"),
+      updatedAt: new Date("2024-03-18T09:15:00Z"),
+      feedback: null
+    },
+    {
+      _id: ObjectId("63d0fe4f5311236168a109fe"),
+      eventId: ObjectId("62d0fe4f5311236168a109ed"), // Corporate Law Arbitration Workshop
+      judgeId: ObjectId("60d0fe4f5311236168a109ca"), // John Doe
+      status: "pending",
+      role: "arbitrator",
+      assignedSessions: [
+        {
+          date: new Date("2024-07-15T10:30:00Z"),
+          duration: 240,
+          room: "Executive Conference Room",
+          topic: "Shareholder Disputes"
+        }
+      ],
+      specialRequirements: "No special requirements",
+      compensationDetails: {
+        amount: 300,
+        paymentStatus: "pending",
+        paymentMethod: "direct deposit"
+      },
+      createdAt: new Date("2024-03-19T09:00:00Z"),
+      updatedAt: new Date("2024-03-19T09:00:00Z"),
+      feedback: null
+    }

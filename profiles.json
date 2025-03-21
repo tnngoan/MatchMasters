@@ -1,0 +1,112 @@
+[
+    {
+        "_id": "61d0fe4f5311236168a109da",
+        "userId": "60d0fe4f5311236168a109ca",
+        "bio": "Experienced circuit court judge with over 15 years of experience in criminal law. Specialty in handling complex litigation cases.",
+        "expertise": ["Criminal Law", "Civil Litigation", "Constitutional Law"],
+        "ratePerHour": 150,
+        "availability": {
+            "monday": { "start": "09:00", "end": "17:00" },
+            "tuesday": { "start": "09:00", "end": "17:00" },
+            "wednesday": { "start": "09:00", "end": "17:00" },
+            "thursday": { "start": "09:00", "end": "17:00" },
+            "friday": { "start": "09:00", "end": "15:00" }
+        },
+        "education": [
+            {
+                "institution": "Harvard Law School",
+                "degree": "Juris Doctor",
+                "year": 2003
+            },
+            {
+                "institution": "Yale University",
+                "degree": "Bachelor of Arts, Political Science",
+                "year": 2000
+            }
+        ],
+        "certifications": ["State Bar Association", "National Judges Association"],
+        "profileImage": "https://example.com/images/johndoe.jpg",
+        "averageRating": 4.8,
+        "totalReviews": 56
+    },
+    {
+        "_id": "61d0fe4f5311236168a109db",
+        "userId": "60d0fe4f5311236168a109cc",
+        "bio": "Former administrative law judge with expertise in regulatory compliance and dispute resolution. Known for fair and balanced rulings.",
+        "expertise": ["Administrative Law", "Regulatory Compliance", "Labor Law"],
+        "ratePerHour": 125,
+        "availability": {
+            "monday": { "start": "10:00", "end": "18:00" },
+            "tuesday": { "start": "10:00", "end": "18:00" },
+            "wednesday": { "start": "10:00", "end": "18:00" },
+            "thursday": { "start": "10:00", "end": "18:00" },
+            "friday": { "start": "10:00", "end": "16:00" }
+        },
+        "education": [
+            {
+                "institution": "Stanford Law School",
+                "degree": "Juris Doctor",
+                "year": 2005
+            },
+            {
+                "institution": "University of Michigan",
+                "degree": "Bachelor of Science, Economics",
+                "year": 2002
+            }
+        ],
+        "certifications": ["State Bar Association", "Certified Mediator"],
+        "profileImage": "https://example.com/images/robertjohnson.jpg",
+        "averageRating": 4.6,
+        "totalReviews": 42
+    },
+    {
+        "_id": "61d0fe4f5311236168a109dc",
+        "userId": "60d0fe4f5311236168a109ce",
+        "bio": "Specialized in intellectual property disputes and patent litigation. Over 10 years of experience in technology-related legal matters.",
+        "expertise": ["Intellectual Property", "Patent Law", "Technology Law"],
+        "ratePerHour": 175,
+        "availability": {
+            "monday": { "start": "08:00", "end": "16:00" },
+            "tuesday": { "start": "08:00", "end": "16:00" },
+            "wednesday": { "start": "08:00", "end": "16:00" },
+            "thursday": { "start": "08:00", "end": "16:00" },
+            "friday": { "start": "08:00", "end": "14:00" }
+        },
+        "education": [
+            {
+                "institution": "Columbia Law School",
+                "degree": "Juris Doctor",
+                "year": 2008
+            },
+            {
+                "institution": "MIT",
+                "degree": "Bachelor of Science, Computer Science",
+                "year": 2005
+            }
+        ],
+        "certifications": ["Patent Bar", "State Bar Association", "Certified IP Specialist"],
+        "profileImage": "https://example.com/images/davidwilson.jpg",
+        "averageRating": 4.9,
+        "totalReviews": 38
+    },
+    {
+        "_id": "61d0fe4f5311236168a109dd",
+        "userId": "60d0fe4f5311236168a109cb",
+        "bio": "Event organizer specializing in legal conferences and competitions. Experienced in coordinating large-scale judicial events.",
+        "expertise": ["Event Management", "Legal Conferences", "Moot Court Competitions"],
+        "organization": "Legal Events International",
+        "position": "Senior Event Coordinator",
+        "contactEmail": "jane.events@example.com",
+        "profileImage": "https://example.com/images/janesmith.jpg"
+    },
+    {
+        "_id": "61d0fe4f5311236168a109de",
+        "userId": "60d0fe4f5311236168a109cd",
+        "bio": "Legal competition coordinator with expertise in university law competitions and mock trials.",
+        "expertise": ["Mock Trial Organization", "University Competitions", "Legal Education"],
+        "organization": "National Law School Association",
+        "position": "Competition Director",
+        "contactEmail": "maria.competitions@example.com",
+        "profileImage": "https://example.com/images/mariagarcia.jpg"
+    }
+]

@@ -1,67 +1,50 @@
 [
   {
-    "_id": "60d0fe4f5311236168a109ca",
-    "email": "john.doe@example.com",
-    "password": "$2a$10$rPiEAgUONRvgVVTOgUfSJOFUUXKvJXfSMcjUekZBBkPO7j4fKVv2S",
+    "email": "john.smith@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
     "role": "judge",
-    "firstName": "John",
-    "lastName": "Doe",
-    "phoneNumber": "+1-555-123-4567",
-    "createdAt": "2024-01-15T08:30:00Z",
-    "updatedAt": "2024-01-15T08:30:00Z",
-    "isVerified": true,
-    "lastLogin": "2024-03-18T14:20:00Z"
+    "_id": "60d5ec9af682727af861234a"
   },
   {
-    "_id": "60d0fe4f5311236168a109cb",
-    "email": "jane.smith@example.com",
-    "password": "$2a$10$nJRHaOPDZmjKxD9yVjMwZOvtZtRBVSm87mndCZRk2Y5.VPI2a7gzC",
+    "email": "jane.doe@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
+    "role": "judge",
+    "_id": "60d5ec9af682727af861234b"
+  },
+  {
+    "email": "bob.jones@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
+    "role": "judge",
+    "_id": "60d5ec9af682727af861234c"
+  },
+  {
+    "email": "sarah.williams@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
+    "role": "judge",
+    "_id": "60d5ec9af682727af861234d"
+  },
+  {
+    "email": "michael.brown@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
+    "role": "judge",
+    "_id": "60d5ec9af682727af861234e"
+  },
+  {
+    "email": "eventmaster@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
     "role": "organizer",
-    "firstName": "Jane",
-    "lastName": "Smith",
-    "phoneNumber": "+1-555-987-6543",
-    "createdAt": "2024-01-20T10:15:00Z",
-    "updatedAt": "2024-01-20T10:15:00Z",
-    "isVerified": true,
-    "lastLogin": "2024-03-19T09:45:00Z"
+    "_id": "60d5ec9af682727af861234f"
   },
   {
-    "_id": "60d0fe4f5311236168a109cc",
-    "email": "robert.johnson@example.com",
-    "password": "$2a$10$WPR8DpzRLZZQUZX7GhWrxunxOmRYGGwmNwCRAJCqA.9GSPZSFbPmW",
-    "role": "judge",
-    "firstName": "Robert",
-    "lastName": "Johnson",
-    "phoneNumber": "+1-555-234-5678",
-    "createdAt": "2024-01-25T15:45:00Z",
-    "updatedAt": "2024-01-25T15:45:00Z",
-    "isVerified": true,
-    "lastLogin": "2024-03-17T16:30:00Z"
-  },
-  {
-    "_id": "60d0fe4f5311236168a109cd",
-    "email": "maria.garcia@example.com",
-    "password": "$2a$10$9pCubHgUuiPLXTKXNtI1xu0JKsJlkzQ2A1LPeDFEMeY.HzD9DdvVW",
+    "email": "sportschampions@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
     "role": "organizer",
-    "firstName": "Maria",
-    "lastName": "Garcia",
-    "phoneNumber": "+1-555-345-6789",
-    "createdAt": "2024-02-01T11:20:00Z",
-    "updatedAt": "2024-02-01T11:20:00Z",
-    "isVerified": true,
-    "lastLogin": "2024-03-19T11:10:00Z"
+    "_id": "60d5ec9af682727af8612350"
   },
   {
-    "_id": "60d0fe4f5311236168a109ce",
-    "email": "david.wilson@example.com",
-    "password": "$2a$10$bNxZ0wCgV8xbLEXsH97f1.fYuNXkiLFtStHgUUAXcf1HCmkqwFTnS",
-    "role": "judge",
-    "firstName": "David",
-    "lastName": "Wilson",
-    "phoneNumber": "+1-555-456-7890",
-    "createdAt": "2024-02-05T09:30:00Z",
-    "updatedAt": "2024-02-05T09:30:00Z",
-    "isVerified": true,
-    "lastLogin": "2024-03-18T10:25:00Z"
+    "email": "olympicscoordinator@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
+    "role": "organizer",
+    "_id": "60d5ec9af682727af8612351"
   }
 ]

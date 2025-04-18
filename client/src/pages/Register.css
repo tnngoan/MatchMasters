@@ -1,0 +1,163 @@
+/* Register.css */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 70px);
+  background-color: var(--dark-bg);
+  padding: 2rem 1rem;
+}
+
+.register-card-container {
+  width: 100%;
+  max-width: 450px;
+}
+
+.register-card {
+  background-color: var(--card-bg);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  padding: 2.5rem;
+  border: 1px solid var(--border-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.register-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+}
+
+.register-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.register-logo {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(93, 255, 0, 0.15);
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.register-header h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.register-error {
+  background-color: rgba(255, 109, 63, 0.15);
+  color: var(--danger-color);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.register-error i {
+  margin-right: 8px;
+  font-size: 1.1rem;
+}
+
+.register-form {
+  margin-bottom: 1.5rem;
+}
+
+/* Form styles are shared with login - using the form-group class from Login.css */
+
+.register-button-submit {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--primary-color);
+  color: var(--darker-bg);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-button-submit:hover {
+  background-color: #4FE600;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(93, 255, 0, 0.3);
+}
+
+.register-button-submit:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.register-button-submit i {
+  margin-right: 8px;
+}
+
+/* Spinner styles are shared with login */
+
+.login-section {
+  background-color: var(--darker-bg);
+  margin: 2rem -2.5rem -2.5rem;
+  padding: 1.5rem;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.login-section p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+}
+
+.login-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--card-bg);
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid var(--primary-color);
+  box-shadow: 0 4px 12px rgba(93, 255, 0, 0.15);
+}
+
+.login-link:hover {
+  background-color: rgba(93, 255, 0, 0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(93, 255, 0, 0.25);
+}
+
+.login-link i {
+  margin-right: 8px;
+  color: var(--primary-color);
+}
+
+@media (max-width: 576px) {
+  .register-card {
+    padding: 2rem 1.5rem;
+  }
+  
+  .login-section {
+    margin: 2rem -1.5rem -1.5rem;
+    padding: 1.5rem 1rem;
+  }
+}

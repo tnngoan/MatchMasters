@@ -1,147 +1,182 @@
-
-// Bookings collection
-db.bookings.insertMany([
-    {
-      _id: ObjectId("63d0fe4f5311236168a109fa"),
-      eventId: ObjectId("62d0fe4f5311236168a109ea"), // National Moot Court Competition
-      judgeId: ObjectId("60d0fe4f5311236168a109ca"), // John Doe
-      status: "confirmed",
-      role: "panel judge",
-      assignedSessions: [
-        {
-          date: new Date("2024-04-15T13:00:00Z"),
-          duration: 180, // minutes
-          room: "Grand Ballroom A",
-          topic: "First Amendment Rights"
-        },
-        {
-          date: new Date("2024-04-16T10:00:00Z"),
-          duration: 180,
-          room: "Grand Ballroom B",
-          topic: "Due Process Claims"
-        }
-      ],
-      specialRequirements: "Requires access to legal reference materials",
-      compensationDetails: {
-        amount: 500,
-        paymentStatus: "pending",
-        paymentMethod: "direct deposit"
-      },
-      createdAt: new Date("2024-03-01T11:45:00Z"),
-      updatedAt: new Date("2024-03-10T09:30:00Z"),
-      feedback: null
-    },
-    {
-      _id: ObjectId("63d0fe4f5311236168a109fb"),
-      eventId: ObjectId("62d0fe4f5311236168a109eb"), // International Patent Law Symposium
-      judgeId: ObjectId("60d0fe4f5311236168a109ce"), // David Wilson
-      status: "confirmed",
-      role: "lead judge",
-      assignedSessions: [
-        {
-          date: new Date("2024-05-20T09:00:00Z"),
-          duration: 240,
-          room: "Innovation Hall",
-          topic: "Software Patent Disputes"
-        },
-        {
-          date: new Date("2024-05-21T09:00:00Z"),
-          duration: 240,
-          room: "Innovation Hall",
-          topic: "Pharmaceutical Patent Challenges"
-        }
-      ],
-      specialRequirements: "Needs high-speed internet access for digital exhibits",
-      compensationDetails: {
-        amount: 600,
-        paymentStatus: "pending",
-        paymentMethod: "check"
-      },
-      createdAt: new Date("2024-03-05T14:20:00Z"),
-      updatedAt: new Date("2024-03-15T16:45:00Z"),
-      feedback: null
-    },
-    {
-      _id: ObjectId("63d0fe4f5311236168a109fc"),
-      eventId: ObjectId("62d0fe4f5311236168a109ec"), // State Bar Mock Trial Competition
-      judgeId: ObjectId("60d0fe4f5311236168a109cc"), // Robert Johnson
-      status: "confirmed",
-      role: "evaluator",
-      assignedSessions: [
-        {
-          date: new Date("2024-06-10T10:00:00Z"),
-          duration: 180,
-          room: "Courtroom 3",
-          topic: "Criminal Procedure"
-        },
-        {
-          date: new Date("2024-06-11T13:00:00Z"),
-          duration: 180,
-          room: "Courtroom 2",
-          topic: "Evidence Admissibility"
-        }
-      ],
-      specialRequirements: "Prefers hardcopy materials for review",
-      compensationDetails: {
-        amount: 350,
-        paymentStatus: "pending",
-        paymentMethod: "direct deposit"
-      },
-      createdAt: new Date("2024-03-08T10:30:00Z"),
-      updatedAt: new Date("2024-03-17T11:15:00Z"),
-      feedback: null
-    },
-    {
-      _id: ObjectId("63d0fe4f5311236168a109fd"),
-      eventId: ObjectId("62d0fe4f5311236168a109ea"), // National Moot Court Competition
-      judgeId: ObjectId("60d0fe4f5311236168a109cc"), // Robert Johnson
-      status: "confirmed",
-      role: "panel judge",
-      assignedSessions: [
-        {
-          date: new Date("2024-04-17T09:00:00Z"),
-          duration: 180,
-          room: "Grand Ballroom C",
-          topic: "Equal Protection Claims"
-        },
-        {
-          date: new Date("2024-04-18T13:00:00Z"),
-          duration: 180,
-          room: "Grand Ballroom A",
-          topic: "Final Round Arguments"
-        }
-      ],
-      specialRequirements: "Requires vegetarian meal options",
-      compensationDetails: {
-        amount: 500,
-        paymentStatus: "pending",
-        paymentMethod: "direct deposit"
-      },
-      createdAt: new Date("2024-03-12T15:40:00Z"),
-      updatedAt: new Date("2024-03-18T09:15:00Z"),
-      feedback: null
-    },
-    {
-      _id: ObjectId("63d0fe4f5311236168a109fe"),
-      eventId: ObjectId("62d0fe4f5311236168a109ed"), // Corporate Law Arbitration Workshop
-      judgeId: ObjectId("60d0fe4f5311236168a109ca"), // John Doe
-      status: "pending",
-      role: "arbitrator",
-      assignedSessions: [
-        {
-          date: new Date("2024-07-15T10:30:00Z"),
-          duration: 240,
-          room: "Executive Conference Room",
-          topic: "Shareholder Disputes"
-        }
-      ],
-      specialRequirements: "No special requirements",
-      compensationDetails: {
-        amount: 300,
-        paymentStatus: "pending",
-        paymentMethod: "direct deposit"
-      },
-      createdAt: new Date("2024-03-19T09:00:00Z"),
-      updatedAt: new Date("2024-03-19T09:00:00Z"),
-      feedback: null
-    }
+[
+  {
+    "_id": "81d5ec9af682727af9612371",
+    "judgeId": "61d5ec9af682727af9612341",
+    "judgeUserId": "60d5ec9af682727af861234a",
+    "eventId": "71d5ec9af682727af9612361",
+    "status": "confirmed",
+    "role": "Head Referee",
+    "assignedCourts": ["Court 1", "Court 2"],
+    "bookingDate": "2025-04-10T15:30:00.000Z",
+    "compensation": 80,
+    "notes": "Please arrive 1 hour before the first game for officials' meeting.",
+    "contactPersonName": "Alex Rodriguez",
+    "contactPersonEmail": "alex@bayareabasketball.example.com",
+    "contactPersonPhone": "555-987-6543"
+  },
+  {
+    "_id": "81d5ec9af682727af9612372",
+    "judgeId": "61d5ec9af682727af9612345",
+    "judgeUserId": "60d5ec9af682727af861234e",
+    "eventId": "71d5ec9af682727af9612361",
+    "status": "confirmed",
+    "role": "Assistant Referee",
+    "assignedCourts": ["Court 3", "Court 4"],
+    "bookingDate": "2025-04-12T09:45:00.000Z",
+    "compensation": 75,
+    "notes": "Official tournament uniform will be provided.",
+    "contactPersonName": "Alex Rodriguez",
+    "contactPersonEmail": "alex@bayareabasketball.example.com",
+    "contactPersonPhone": "555-987-6543"
+  },
+  {
+    "_id": "81d5ec9af682727af9612373",
+    "judgeId": "61d5ec9af682727af9612342",
+    "judgeUserId": "60d5ec9af682727af861234b",
+    "eventId": "71d5ec9af682727af9612362",
+    "status": "confirmed",
+    "role": "Stroke Judge",
+    "assignedAreas": ["Lanes 1-4"],
+    "bookingDate": "2025-05-15T11:20:00.000Z",
+    "compensation": 70,
+    "notes": "Digital timing system training session available on the morning of day 1.",
+    "contactPersonName": "Samantha Waters",
+    "contactPersonEmail": "samantha@pacificswim.example.com",
+    "contactPersonPhone": "555-123-9876"
+  },
+  {
+    "_id": "81d5ec9af682727af9612374",
+    "judgeId": "61d5ec9af682727af9612342",
+    "judgeUserId": "60d5ec9af682727af861234b",
+    "eventId": "71d5ec9af682727af9612363",
+    "status": "confirmed",
+    "role": "Head Judge",
+    "assignedAreas": ["Finish Line"],
+    "bookingDate": "2025-06-05T14:15:00.000Z",
+    "compensation": 85,
+    "notes": "Please bring credentials for Junior Olympics certification verification.",
+    "contactPersonName": "Michael Johnson",
+    "contactPersonEmail": "michael@caswim.example.com",
+    "contactPersonPhone": "555-456-7890"
+  },
+  {
+    "_id": "81d5ec9af682727af9612375",
+    "judgeId": "61d5ec9af682727af9612344",
+    "judgeUserId": "60d5ec9af682727af861234d",
+    "eventId": "71d5ec9af682727af9612363",
+    "status": "confirmed",
+    "role": "Turn Judge",
+    "assignedAreas": ["Lanes 5-8"],
+    "bookingDate": "2025-06-10T10:30:00.000Z",
+    "compensation": 80,
+    "notes": "Officials' meeting at 7:00 AM each day of competition.",
+    "contactPersonName": "Michael Johnson",
+    "contactPersonEmail": "michael@caswim.example.com",
+    "contactPersonPhone": "555-456-7890"
+  },
+  {
+    "_id": "81d5ec9af682727af9612376",
+    "judgeId": "61d5ec9af682727af9612343",
+    "judgeUserId": "60d5ec9af682727af861234c",
+    "eventId": "71d5ec9af682727af9612364",
+    "status": "confirmed",
+    "role": "Chair Umpire",
+    "assignedCourts": ["Center Court", "Court 1"],
+    "bookingDate": "2025-05-01T16:40:00.000Z",
+    "compensation": 90,
+    "notes": "Finals matches will be broadcast locally. Professional attire required.",
+    "contactPersonName": "Jennifer Lopez",
+    "contactPersonEmail": "jennifer@pacifictennis.example.com",
+    "contactPersonPhone": "555-222-3333"
+  },
+  {
+    "_id": "81d5ec9af682727af9612377",
+    "judgeId": "61d5ec9af682727af9612343",
+    "judgeUserId": "60d5ec9af682727af861234c",
+    "eventId": "71d5ec9af682727af9612365",
+    "status": "confirmed",
+    "role": "Service Judge",
+    "assignedCourts": ["Courts A, B, C"],
+    "bookingDate": "2025-05-20T13:25:00.000Z",
+    "compensation": 75,
+    "notes": "BWF rules training refresher on day 1 at 7:30 AM.",
+    "contactPersonName": "Li Wei",
+    "contactPersonEmail": "li@svbadminton.example.com",
+    "contactPersonPhone": "555-444-5555"
+  },
+  {
+    "_id": "81d5ec9af682727af9612378",
+    "judgeId": "61d5ec9af682727af9612344",
+    "judgeUserId": "60d5ec9af682727af861234d",
+    "eventId": "71d5ec9af682727af9612366",
+    "status": "confirmed",
+    "role": "Apparatus Judge",
+    "assignedAreas": ["Women's Vault", "Women's Balance Beam"],
+    "bookingDate": "2025-06-01T09:10:00.000Z",
+    "compensation": 95,
+    "notes": "Level 10 judging credentials required. Digital scoring system will be used.",
+    "contactPersonName": "Rebecca Mitchell",
+    "contactPersonEmail": "rebecca@mwgymnastics.example.com",
+    "contactPersonPhone": "555-666-7777"
+  },
+  {
+    "_id": "81d5ec9af682727af9612379",
+    "judgeId": "61d5ec9af682727af9612344",
+    "judgeUserId": "60d5ec9af682727af861234d",
+    "eventId": "71d5ec9af682727af9612367",
+    "status": "confirmed",
+    "role": "Technical Panel",
+    "assignedAreas": ["Singles - Junior & Senior"],
+    "bookingDate": "2025-10-01T11:50:00.000Z",
+    "compensation": 100,
+    "notes": "ISU certification verification required at check-in.",
+    "contactPersonName": "Christine Taylor",
+    "contactPersonEmail": "christine@alpineskating.example.com",
+    "contactPersonPhone": "555-888-9999"
+  },
+  {
+    "_id": "81d5ec9af682727af9612380",
+    "judgeId": "61d5ec9af682727af9612341",
+    "judgeUserId": "60d5ec9af682727af861234a",
+    "eventId": "71d5ec9af682727af9612368",
+    "status": "confirmed",
+    "role": "Center Referee",
+    "assignedFields": ["Field 1", "Field 2"],
+    "bookingDate": "2025-06-15T10:00:00.000Z",
+    "compensation": 85,
+    "notes": "Referee meeting at 7:30 AM each day. FIFA certified referee equipment required.",
+    "contactPersonName": "Carlos Mendez",
+    "contactPersonEmail": "carlos@coastalsoccer.example.com",
+    "contactPersonPhone": "555-111-2222"
+  },
+  {
+    "_id": "81d5ec9af682727af9612381",
+    "judgeId": "61d5ec9af682727af9612345",
+    "judgeUserId": "60d5ec9af682727af861234e",
+    "eventId": "71d5ec9af682727af9612368",
+    "status": "confirmed",
+    "role": "Assistant Referee",
+    "assignedFields": ["Field 3", "Field 4"],
+    "bookingDate": "2025-06-17T14:20:00.000Z",
+    "compensation": 80,
+    "notes": "Please bring your own flags and whistles. Uniform provided.",
+    "contactPersonName": "Carlos Mendez",
+    "contactPersonEmail": "carlos@coastalsoccer.example.com",
+    "contactPersonPhone": "555-111-2222"
+  },
+  {
+    "_id": "81d5ec9af682727af9612382",
+    "judgeId": "61d5ec9af682727af9612345",
+    "judgeUserId": "60d5ec9af682727af861234e",
+    "eventId": "71d5ec9af682727af9612369",
+    "status": "confirmed",
+    "role": "Main Referee",
+    "assignedFields": ["Main Pitch"],
+    "bookingDate": "2025-07-22T09:35:00.000Z",
+    "compensation": 90,
+    "notes": "World Rugby certification check at officials' meeting. TMO training available.",
+    "contactPersonName": "Stuart Williams",
+    "contactPersonEmail": "stuart@pacificrugby.example.com",
+    "contactPersonPhone": "555-333-4444"
+  }
+]

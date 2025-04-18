@@ -27,9 +27,9 @@ function Navbar() {
 
   // Function to check if the link is active
   const isActive = (path) => {
-    // Special handling for Dashboard - only active on /dashboard, not on homepage
+    // Handle Dashboard link - active on homepage ('/')
     if (path === '/') {
-      return location.pathname === '/dashboard';
+      return location.pathname === '/';
     }
     
     // For other pages, check if pathname starts with the path 

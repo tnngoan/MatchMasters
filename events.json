@@ -1,0 +1,450 @@
+// Events collection
+db.events.insertMany([
+    {
+      _id: ObjectId("62d0fe4f5311236168a109ea"),
+      title: "National Moot Court Competition",
+      description: "Annual competition bringing together law students from across the country to argue appellate cases before a panel of judges.",
+      organizerId: ObjectId("60d0fe4f5311236168a109cb"), // Jane Smith
+      location: {
+        address: "123 Legal Center Drive",
+        city: "Chicago",
+        state: "IL",
+        zipCode: "60601",
+        venue: "Chicago Convention Center"
+      },
+      startDate: new Date("2024-04-15T09:00:00Z"),
+      endDate: new Date("2024-04-18T17:00:00Z"),
+      eventType: "competition",
+      judgesNeeded: 12,
+      judgesConfirmed: 8,
+      category: "Constitutional Law",
+      status: "upcoming",
+      registrationDeadline: new Date("2024-04-01T23:59:59Z"),
+      compensation: {
+        amount: 500,
+        type: "fixed",
+        details: "Per diem and travel expenses included"
+      },
+      requiredExpertise: ["Constitutional Law", "Appellate Procedure"],
+      createdAt: new Date("2024-02-10T14:30:00Z"),
+      updatedAt: new Date("2024-03-15T10:45:00Z")
+    },
+    {
+      _id: ObjectId("62d0fe4f5311236168a109eb"),
+      title: "International Patent Law Symposium",
+      description: "A gathering of legal experts to judge patent law presentations and resolve simulated disputes.",
+      organizerId: ObjectId("60d0fe4f5311236168a109cd"), // Maria Garcia
+      location: {
+        address: "456 Innovation Boulevard",
+        city: "San Francisco",
+        state: "CA",
+        zipCode: "94105",
+        venue: "Tech Law Center"
+      },
+      startDate: new Date("2024-05-20T08:30:00Z"),
+      endDate: new Date("2024-05-23T16:30:00Z"),
+      eventType: "symposium",
+      judgesNeeded: 6,
+      judgesConfirmed: 3,
+      category: "Intellectual Property",
+      status: "upcoming",
+      registrationDeadline: new Date("2024-05-01T23:59:59Z"),
+      compensation: {
+        amount: 200,
+        type: "daily",
+        details: "Hotel accommodations provided"
+      },
+      requiredExpertise: ["Patent Law", "Intellectual Property", "Technology Law"],
+      createdAt: new Date("2024-02-20T09:15:00Z"),
+      updatedAt: new Date("2024-03-10T11:30:00Z")
+    },
+    {
+      _id: ObjectId("62d0fe4f5311236168a109ec"),
+      title: "State Bar Mock Trial Competition",
+      description: "Annual competition for law students to present trial cases before experienced judges.",
+      organizerId: ObjectId("60d0fe4f5311236168a109cb"), // Jane Smith
+      location: {
+        address: "789 Justice Avenue",
+        city: "Boston",
+        state: "MA",
+        zipCode: "02110",
+        venue: "Suffolk County Courthouse"
+      },
+      startDate: new Date("2024-06-10T09:00:00Z"),
+      endDate: new Date("2024-06-12T17:00:00Z"),
+      eventType: "competition",
+      judgesNeeded: 9,
+      judgesConfirmed: 4,
+      category: "Trial Advocacy",
+      status: "upcoming",
+      registrationDeadline: new Date("2024-05-27T23:59:59Z"),
+      compensation: {
+        amount: 350,
+        type: "fixed",
+        details: "Lunch and parking provided"
+      },
+      requiredExpertise: ["Trial Procedure", "Evidence Law", "Criminal Law"],
+      createdAt: new Date("2024-03-01T13:00:00Z"),
+      updatedAt: new Date("2024-03-18T14:45:00Z")
+    },
+    {
+      _id: ObjectId("62d0fe4f5311236168a109ed"),
+      title: "Corporate Law Arbitration Workshop",
+      description: "Professional development event requiring judges to evaluate mock arbitration proceedings.",
+      organizerId: ObjectId("60d0fe4f5311236168a109cd"), // Maria Garcia
+      location: {
+        address: "101 Business Plaza",
+        city: "New York",
+        state: "NY",
+        zipCode: "10007",
+        venue: "Manhattan Business Center"
+      },
+      startDate: new Date("2024-07-15T10:00:00Z"),
+      endDate: new Date("2024-07-16T16:00:00Z"),
+      eventType: "workshop",
+      judgesNeeded: 4,
+      judgesConfirmed: 2,
+      category: "Corporate Law",
+      status: "upcoming",
+      registrationDeadline: new Date("2024-07-01T23:59:59Z"),
+      compensation: {
+        amount: 300,
+        type: "daily",
+        details: "Includes professional networking dinner"
+      },
+      requiredExpertise: ["Corporate Law", "Arbitration", "Business Law"],
+      createdAt: new Date("2024-03-05T16:20:00Z"),
+      updatedAt: new Date("2024-03-17T09:30:00Z")
+    },
+    {
+      _id: "71d5ec9af682727af9612361",
+      name: "Bay Area Basketball Tournament",
+      location: {
+        venue: "Oakland Sports Complex",
+        address: "123 Main Street, Oakland, CA 94612",
+        coordinates: {
+          lat: 37.8044,
+          lng: -122.2711
+        }
+      },
+      startDate: "2025-05-15T08:00:00.000Z",
+      endDate: "2025-05-17T18:00:00.000Z",
+      sport: "Basketball",
+      description: "Annual high school basketball tournament featuring teams from across the Bay Area. Three days of competitive play with divisions for boys and girls varsity teams.",
+      organizerId: "60d5ec9af682727af861234f",
+      status: "upcoming",
+      judges: ["61d5ec9af682727af9612341", "61d5ec9af682727af9612345"],
+      requiredJudges: 5,
+      judgeCompensation: 80,
+      teams: [
+        "Golden Gate High Wildcats",
+        "Oakland Tech Bulldogs",
+        "Berkeley High Yellowjackets",
+        "San Francisco Prep Lions",
+        "Alameda Hornets",
+        "Richmond Oilers",
+        "San Jose Eagles",
+        "Daly City Panthers"
+      ],
+      division: "High School Varsity",
+      contactEmail: "tournament@bayareabasketball.example.com",
+      registrationDeadline: "2025-05-01T23:59:59.000Z"
+    },
+    {
+      _id: "71d5ec9af682727af9612362",
+      name: "West Coast Swimming Championships",
+      location: {
+        venue: "Pacific Aquatic Center",
+        address: "456 Beach Blvd, San Diego, CA 92109",
+        coordinates: {
+          lat: 32.7992,
+          lng: -117.2493
+        }
+      },
+      startDate: "2025-06-05T09:00:00.000Z",
+      endDate: "2025-06-08T17:00:00.000Z",
+      sport: "Swimming",
+      description: "Olympic-qualifying swimming meet with events for all age groups and abilities. Features 50m and 25m races in all strokes plus relays and medleys.",
+      organizerId: "60d5ec9af682727af8612350",
+      status: "upcoming",
+      judges: ["61d5ec9af682727af9612342"],
+      requiredJudges: 8,
+      judgeCompensation: 70,
+      categories: [
+        "Freestyle",
+        "Backstroke",
+        "Breaststroke",
+        "Butterfly",
+        "Individual Medley",
+        "Relays"
+      ],
+      ageGroups: [
+        "8 & Under",
+        "9-10",
+        "11-12",
+        "13-14",
+        "15-16",
+        "17-18",
+        "Open"
+      ],
+      contactEmail: "events@pacificswim.example.com",
+      registrationDeadline: "2025-05-25T23:59:59.000Z"
+    },
+    {
+      _id: "71d5ec9af682727af9612363",
+      name: "California Junior Olympics - Swimming",
+      location: {
+        venue: "LA Aquatics Center",
+        address: "789 Olympic Blvd, Los Angeles, CA 90001",
+        coordinates: {
+          lat: 34.0224,
+          lng: -118.2851
+        }
+      },
+      startDate: "2025-07-10T08:00:00.000Z",
+      endDate: "2025-07-12T18:00:00.000Z",
+      sport: "Swimming",
+      description: "Junior Olympic swimming competition for top youth athletes across California. Participants must meet qualifying times to compete.",
+      organizerId: "60d5ec9af682727af8612351",
+      status: "upcoming",
+      judges: ["61d5ec9af682727af9612342", "61d5ec9af682727af9612344"],
+      requiredJudges: 10,
+      judgeCompensation: 85,
+      categories: [
+        "Freestyle",
+        "Backstroke",
+        "Breaststroke",
+        "Butterfly",
+        "Individual Medley",
+        "Relays"
+      ],
+      ageGroups: [
+        "10 & Under",
+        "11-12",
+        "13-14",
+        "15-16",
+        "17-18"
+      ],
+      contactEmail: "juniorolympics@caswim.example.com",
+      registrationDeadline: "2025-06-30T23:59:59.000Z"
+    },
+    {
+      _id: "71d5ec9af682727af9612364",
+      name: "Pacific Coast Tennis Open",
+      location: {
+        venue: "Oceanside Tennis Club",
+        address: "321 Racquet Drive, Santa Barbara, CA 93101",
+        coordinates: {
+          lat: 34.4208,
+          lng: -119.6982
+        }
+      },
+      startDate: "2025-05-25T09:00:00.000Z",
+      endDate: "2025-05-31T18:00:00.000Z",
+      sport: "Tennis",
+      description: "Premier tennis tournament featuring singles and doubles competitions across multiple divisions. Open to amateur and semi-professional players.",
+      organizerId: "60d5ec9af682727af861234f",
+      status: "upcoming",
+      judges: ["61d5ec9af682727af9612343"],
+      requiredJudges: 12,
+      judgeCompensation: 90,
+      categories: [
+        "Men's Singles",
+        "Women's Singles",
+        "Men's Doubles",
+        "Women's Doubles",
+        "Mixed Doubles"
+      ],
+      skillLevels: [
+        "Open",
+        "A",
+        "B",
+        "C"
+      ],
+      contactEmail: "tournament@pacifictennis.example.com",
+      registrationDeadline: "2025-05-15T23:59:59.000Z"
+    },
+    {
+      _id: "71d5ec9af682727af9612365",
+      name: "Silicon Valley Badminton Championships",
+      location: {
+        venue: "Tech Valley Badminton Center",
+        address: "456 Innovation Way, San Jose, CA 95134",
+        coordinates: {
+          lat: 37.4419,
+          lng: -121.8887
+        }
+      },
+      startDate: "2025-06-15T08:00:00.000Z",
+      endDate: "2025-06-18T20:00:00.000Z",
+      sport: "Badminton",
+      description: "Annual badminton tournament drawing players from across the West Coast. Features singles, doubles, and mixed doubles competitions.",
+      organizerId: "60d5ec9af682727af8612350",
+      status: "upcoming",
+      judges: ["61d5ec9af682727af9612343"],
+      requiredJudges: 8,
+      judgeCompensation: 75,
+      categories: [
+        "Men's Singles",
+        "Women's Singles",
+        "Men's Doubles",
+        "Women's Doubles",
+        "Mixed Doubles"
+      ],
+      ageGroups: [
+        "Under 19",
+        "19-35",
+        "35+"
+      ],
+      contactEmail: "championships@svbadminton.example.com",
+      registrationDeadline: "2025-06-01T23:59:59.000Z"
+    },
+    {
+      _id: "71d5ec9af682727af9612366",
+      name: "Mountain West Gymnastics Invitational",
+      location: {
+        venue: "Peak Performance Gymnastics",
+        address: "789 Summit Road, Denver, CO 80202",
+        coordinates: {
+          lat: 39.7392,
+          lng: -104.9903
+        }
+      },
+      startDate: "2025-06-20T08:00:00.000Z",
+      endDate: "2025-06-22T19:00:00.000Z",
+      sport: "Gymnastics",
+      description: "Elite youth gymnastics competition featuring top athletes from across the Mountain West region. All Olympic events for boys and girls divisions.",
+      organizerId: "60d5ec9af682727af8612351",
+      status: "upcoming",
+      judges: ["61d5ec9af682727af9612344"],
+      requiredJudges: 12,
+      judgeCompensation: 95,
+      categories: [
+        "Women's Vault",
+        "Women's Uneven Bars",
+        "Women's Balance Beam",
+        "Women's Floor Exercise",
+        "Men's Floor Exercise",
+        "Men's Pommel Horse",
+        "Men's Rings",
+        "Men's Vault",
+        "Men's Parallel Bars",
+        "Men's High Bar"
+      ],
+      levels: [
+        "Level 6",
+        "Level 7",
+        "Level 8",
+        "Level 9",
+        "Level 10"
+      ],
+      contactEmail: "invitational@mwgymnastics.example.com",
+      registrationDeadline: "2025-06-10T23:59:59.000Z"
+    },
+    {
+      _id: "71d5ec9af682727af9612367",
+      name: "Winter Classic Figure Skating Competition",
+      location: {
+        venue: "Alpine Ice Arena",
+        address: "123 Frost Avenue, Salt Lake City, UT 84101",
+        coordinates: {
+          lat: 40.7608,
+          lng: -111.8910
+        }
+      },
+      startDate: "2025-11-15T08:00:00.000Z",
+      endDate: "2025-11-17T20:00:00.000Z",
+      sport: "Figure Skating",
+      description: "Annual figure skating competition featuring singles, pairs, and ice dance events across multiple skill levels.",
+      organizerId: "60d5ec9af682727af861234f",
+      status: "upcoming",
+      judges: ["61d5ec9af682727af9612344"],
+      requiredJudges: 7,
+      judgeCompensation: 100,
+      categories: [
+        "Singles",
+        "Pairs",
+        "Ice Dance"
+      ],
+      levels: [
+        "Juvenile",
+        "Intermediate",
+        "Novice",
+        "Junior",
+        "Senior"
+      ],
+      contactEmail: "winterclassic@alpineskating.example.com",
+      registrationDeadline: "2025-11-01T23:59:59.000Z"
+    },
+    {
+      _id: "71d5ec9af682727af9612368",
+      name: "West Coast Soccer Tournament",
+      location: {
+        venue: "Coastal Fields Complex",
+        address: "567 Ocean View Drive, Santa Monica, CA 90401",
+        coordinates: {
+          lat: 34.0195,
+          lng: -118.4912
+        }
+      },
+      startDate: "2025-07-01T08:00:00.000Z",
+      endDate: "2025-07-05T19:00:00.000Z",
+      sport: "Soccer",
+      description: "Major youth soccer tournament featuring teams from across the West Coast. Multiple age divisions and competitive levels.",
+      organizerId: "60d5ec9af682727af8612350",
+      status: "upcoming",
+      judges: ["61d5ec9af682727af9612341", "61d5ec9af682727af9612345"],
+      requiredJudges: 20,
+      judgeCompensation: 85,
+      ageGroups: [
+        "U10",
+        "U12",
+        "U14",
+        "U16",
+        "U18"
+      ],
+      divisions: [
+        "Premier",
+        "Gold",
+        "Silver",
+        "Bronze"
+      ],
+      contactEmail: "tournament@coastalsoccer.example.com",
+      registrationDeadline: "2025-06-15T23:59:59.000Z"
+    },
+    {
+      _id: "71d5ec9af682727af9612369",
+      name: "Pacific Rugby Championship",
+      location: {
+        venue: "Pacific Rugby Fields",
+        address: "890 Scrumhalf Road, Portland, OR 97201",
+        coordinates: {
+          lat: 45.5231,
+          lng: -122.6765
+        }
+      },
+      startDate: "2025-08-10T09:00:00.000Z",
+      endDate: "2025-08-12T18:00:00.000Z",
+      sport: "Rugby",
+      description: "Premier rugby championship for club teams across the Pacific Northwest. Features men's and women's divisions in both 15s and 7s formats.",
+      organizerId: "60d5ec9af682727af8612351",
+      status: "upcoming",
+      judges: ["61d5ec9af682727af9612345"],
+      requiredJudges: 10,
+      judgeCompensation: 90,
+      categories: [
+        "Men's 15s",
+        "Women's 15s",
+        "Men's 7s",
+        "Women's 7s"
+      ],
+      divisions: [
+        "Division 1",
+        "Division 2",
+        "Division 3",
+        "Collegiate"
+      ],
+      contactEmail: "championship@pacificrugby.example.com",
+      registrationDeadline: "2025-07-31T23:59:59.000Z"
+    }
+  ]);

@@ -1,0 +1,307 @@
+[
+    {
+        "_id": "61d0fe4f5311236168a109da",
+        "userId": "60d0fe4f5311236168a109ca",
+        "bio": "Experienced circuit court judge with over 15 years of experience in criminal law. Specialty in handling complex litigation cases.",
+        "expertise": ["Criminal Law", "Civil Litigation", "Constitutional Law"],
+        "ratePerHour": 150,
+        "availability": {
+            "monday": { "start": "09:00", "end": "17:00" },
+            "tuesday": { "start": "09:00", "end": "17:00" },
+            "wednesday": { "start": "09:00", "end": "17:00" },
+            "thursday": { "start": "09:00", "end": "17:00" },
+            "friday": { "start": "09:00", "end": "15:00" }
+        },
+        "education": [
+            {
+                "institution": "Harvard Law School",
+                "degree": "Juris Doctor",
+                "year": 2003
+            },
+            {
+                "institution": "Yale University",
+                "degree": "Bachelor of Arts, Political Science",
+                "year": 2000
+            }
+        ],
+        "certifications": ["State Bar Association", "National Judges Association"],
+        "profileImage": "https://example.com/images/johndoe.jpg",
+        "averageRating": 4.8,
+        "totalReviews": 56
+    },
+    {
+        "_id": "61d0fe4f5311236168a109db",
+        "userId": "60d0fe4f5311236168a109cc",
+        "bio": "Former administrative law judge with expertise in regulatory compliance and dispute resolution. Known for fair and balanced rulings.",
+        "expertise": ["Administrative Law", "Regulatory Compliance", "Labor Law"],
+        "ratePerHour": 125,
+        "availability": {
+            "monday": { "start": "10:00", "end": "18:00" },
+            "tuesday": { "start": "10:00", "end": "18:00" },
+            "wednesday": { "start": "10:00", "end": "18:00" },
+            "thursday": { "start": "10:00", "end": "18:00" },
+            "friday": { "start": "10:00", "end": "16:00" }
+        },
+        "education": [
+            {
+                "institution": "Stanford Law School",
+                "degree": "Juris Doctor",
+                "year": 2005
+            },
+            {
+                "institution": "University of Michigan",
+                "degree": "Bachelor of Science, Economics",
+                "year": 2002
+            }
+        ],
+        "certifications": ["State Bar Association", "Certified Mediator"],
+        "profileImage": "https://example.com/images/robertjohnson.jpg",
+        "averageRating": 4.6,
+        "totalReviews": 42
+    },
+    {
+        "_id": "61d0fe4f5311236168a109dc",
+        "userId": "60d0fe4f5311236168a109ce",
+        "bio": "Specialized in intellectual property disputes and patent litigation. Over 10 years of experience in technology-related legal matters.",
+        "expertise": ["Intellectual Property", "Patent Law", "Technology Law"],
+        "ratePerHour": 175,
+        "availability": {
+            "monday": { "start": "08:00", "end": "16:00" },
+            "tuesday": { "start": "08:00", "end": "16:00" },
+            "wednesday": { "start": "08:00", "end": "16:00" },
+            "thursday": { "start": "08:00", "end": "16:00" },
+            "friday": { "start": "08:00", "end": "14:00" }
+        },
+        "education": [
+            {
+                "institution": "Columbia Law School",
+                "degree": "Juris Doctor",
+                "year": 2008
+            },
+            {
+                "institution": "MIT",
+                "degree": "Bachelor of Science, Computer Science",
+                "year": 2005
+            }
+        ],
+        "certifications": ["Patent Bar", "State Bar Association", "Certified IP Specialist"],
+        "profileImage": "https://example.com/images/davidwilson.jpg",
+        "averageRating": 4.9,
+        "totalReviews": 38
+    },
+    {
+        "_id": "61d0fe4f5311236168a109dd",
+        "userId": "60d0fe4f5311236168a109cb",
+        "bio": "Event organizer specializing in legal conferences and competitions. Experienced in coordinating large-scale judicial events.",
+        "expertise": ["Event Management", "Legal Conferences", "Moot Court Competitions"],
+        "organization": "Legal Events International",
+        "position": "Senior Event Coordinator",
+        "contactEmail": "jane.events@example.com",
+        "profileImage": "https://example.com/images/janesmith.jpg"
+    },
+    {
+        "_id": "61d0fe4f5311236168a109de",
+        "userId": "60d0fe4f5311236168a109cd",
+        "bio": "Legal competition coordinator with expertise in university law competitions and mock trials.",
+        "expertise": ["Mock Trial Organization", "University Competitions", "Legal Education"],
+        "organization": "National Law School Association",
+        "position": "Competition Director",
+        "contactEmail": "maria.competitions@example.com",
+        "profileImage": "https://example.com/images/mariagarcia.jpg"
+    },
+    {
+        "_id": "61d5ec9af682727af9612341",
+        "userId": "60d5ec9af682727af861234a",
+        "name": "John Smith",
+        "sports": ["Basketball", "Soccer", "Volleyball"],
+        "certifications": ["FIBA Level 3", "USAV National", "FIFA Regional"],
+        "experience": 12,
+        "hourlyRate": 75,
+        "availability": [
+            {
+                "date": "2025-05-01T09:00:00.000Z",
+                "isAvailable": true
+            },
+            {
+                "date": "2025-05-02T09:00:00.000Z",
+                "isAvailable": true
+            },
+            {
+                "date": "2025-05-03T09:00:00.000Z",
+                "isAvailable": false
+            }
+        ],
+        "bio": "Former professional basketball player with over 12 years of coaching and refereeing experience. Passionate about fair play and youth development.",
+        "contactInfo": {
+            "phone": "555-123-4567",
+            "email": "john.smith@example.com"
+        },
+        "ratings": [
+            {
+                "score": 4.8,
+                "comment": "John was excellent - fair and consistent throughout the tournament.",
+                "eventId": "71d5ec9af682727af9612361"
+            },
+            {
+                "score": 4.9,
+                "comment": "Very professional and knowledgeable about the rules.",
+                "eventId": "71d5ec9af682727af9612362"
+            }
+        ]
+    },
+    {
+        "_id": "61d5ec9af682727af9612342",
+        "userId": "60d5ec9af682727af861234b",
+        "name": "Jane Doe",
+        "sports": ["Swimming", "Track and Field", "Triathlon"],
+        "certifications": ["USA Swimming Official", "USATF Level 2", "ITU Technical Official"],
+        "experience": 8,
+        "hourlyRate": 65,
+        "availability": [
+            {
+                "date": "2025-05-01T09:00:00.000Z",
+                "isAvailable": false
+            },
+            {
+                "date": "2025-05-02T09:00:00.000Z",
+                "isAvailable": true
+            },
+            {
+                "date": "2025-05-03T09:00:00.000Z",
+                "isAvailable": true
+            }
+        ],
+        "bio": "Olympic-level swimming official with expertise in timing and stroke judgment. Also certified in track and field and triathlon officiating.",
+        "contactInfo": {
+            "phone": "555-234-5678",
+            "email": "jane.doe@example.com"
+        },
+        "ratings": [
+            {
+                "score": 5.0,
+                "comment": "Jane was exceptional - her attention to detail made our swim meet run flawlessly.",
+                "eventId": "71d5ec9af682727af9612363"
+            }
+        ]
+    },
+    {
+        "_id": "61d5ec9af682727af9612343",
+        "userId": "60d5ec9af682727af861234c",
+        "name": "Bob Jones",
+        "sports": ["Tennis", "Badminton", "Table Tennis"],
+        "certifications": ["ITF White Badge", "BWF Accredited", "ITTF National Umpire"],
+        "experience": 15,
+        "hourlyRate": 85,
+        "availability": [
+            {
+                "date": "2025-05-01T09:00:00.000Z",
+                "isAvailable": true
+            },
+            {
+                "date": "2025-05-02T09:00:00.000Z",
+                "isAvailable": true
+            },
+            {
+                "date": "2025-05-03T09:00:00.000Z",
+                "isAvailable": true
+            }
+        ],
+        "bio": "I've been officiating racquet sports for 15 years, including several Grand Slam qualifying events. I have a calm demeanor and excellent line-calling abilities.",
+        "contactInfo": {
+            "phone": "555-345-6789",
+            "email": "bob.jones@example.com"
+        },
+        "ratings": [
+            {
+                "score": 4.7,
+                "comment": "Bob handled some very tense match situations with professionalism and fairness.",
+                "eventId": "71d5ec9af682727af9612364"
+            },
+            {
+                "score": 4.5,
+                "comment": "Good technical knowledge, but could improve on communication with players.",
+                "eventId": "71d5ec9af682727af9612365"
+            }
+        ]
+    },
+    {
+        "_id": "61d5ec9af682727af9612344",
+        "userId": "60d5ec9af682727af861234d",
+        "name": "Sarah Williams",
+        "sports": ["Gymnastics", "Figure Skating", "Diving"],
+        "certifications": ["USA Gymnastics Judge Level 9", "ISU Technical Specialist", "USA Diving Judge Level 2"],
+        "experience": 10,
+        "hourlyRate": 90,
+        "availability": [
+            {
+                "date": "2025-05-01T09:00:00.000Z",
+                "isAvailable": false
+            },
+            {
+                "date": "2025-05-02T09:00:00.000Z",
+                "isAvailable": false
+            },
+            {
+                "date": "2025-05-03T09:00:00.000Z",
+                "isAvailable": true
+            }
+        ],
+        "bio": "Former elite gymnast turned judge with a keen eye for technique and artistic elements. Also judge figure skating and diving competitions.",
+        "contactInfo": {
+            "phone": "555-456-7890",
+            "email": "sarah.williams@example.com"
+        },
+        "ratings": [
+            {
+                "score": 4.9,
+                "comment": "Sarah's scoring was consistent and fair. Her feedback to the athletes was constructive.",
+                "eventId": "71d5ec9af682727af9612366"
+            },
+            {
+                "score": 5.0,
+                "comment": "Exceptional judge with great attention to detail and a supportive approach.",
+                "eventId": "71d5ec9af682727af9612367"
+            }
+        ]
+    },
+    {
+        "_id": "61d5ec9af682727af9612345",
+        "userId": "60d5ec9af682727af861234e",
+        "name": "Michael Brown",
+        "sports": ["Football", "Rugby", "American Football"],
+        "certifications": ["FIFA Referee", "World Rugby Level 3", "NCAA Football Official"],
+        "experience": 18,
+        "hourlyRate": 95,
+        "availability": [
+            {
+                "date": "2025-05-01T09:00:00.000Z",
+                "isAvailable": true
+            },
+            {
+                "date": "2025-05-02T09:00:00.000Z",
+                "isAvailable": true
+            },
+            {
+                "date": "2025-05-03T09:00:00.000Z",
+                "isAvailable": false
+            }
+        ],
+        "bio": "International-level football referee with experience in World Cup qualifying matches. Also officiate rugby and American football at high levels.",
+        "contactInfo": {
+            "phone": "555-567-8901",
+            "email": "michael.brown@example.com"
+        },
+        "ratings": [
+            {
+                "score": 4.8,
+                "comment": "Michael controlled the game well and communicated clearly with players and coaches.",
+                "eventId": "71d5ec9af682727af9612368"
+            },
+            {
+                "score": 4.7,
+                "comment": "Excellent positioning and decision-making under pressure.",
+                "eventId": "71d5ec9af682727af9612369"
+            }
+        ]
+    }
+]

@@ -1,0 +1,71 @@
+.footer {
+  background-color: #243020;
+  border-top: 2px solid #5A7055;
+  box-shadow: 0 -2px 15px rgba(93, 255, 0, 0.15);
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.footer-content {
+  padding: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .location-info {
+    margin-top: 1rem;
+  }
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.author-info {
+  font-size: 1.1rem;
+  color: #D8E0D3;
+  margin-bottom: 0.5rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.footer-link {
+  color: rgba(216, 224, 211, 0.8);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #5DFF00;
+}
+
+.location-info {
+  color: rgba(216, 224, 211, 0.8);
+}
+
+/* Updated icon styling for FontAwesome components */
+.icon {
+  color: #5DFF00;
+  margin-right: 8px;
+}
+
+/* Special styling for heart icon */
+.heart-icon {
+  color: #FF6D3F;
+  animation: heartbeat 1.5s infinite ease-in-out;
+}
+
+@keyframes heartbeat {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}

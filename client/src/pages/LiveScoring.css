@@ -1,0 +1,337 @@
+/* LiveScoring.css */
+.live-scoring-container {
+  padding-bottom: 3rem;
+}
+
+.live-scoring-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.live-scoring-title {
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.live-scoring-subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Tournament Info Card */
+.tournament-info-card {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border-color);
+}
+
+.tournament-header {
+  padding: 1rem;
+  background-color: rgba(40, 60, 40, 0.2);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.tournament-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.8rem;
+}
+
+.tournament-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tournament-sport, 
+.tournament-date {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.6rem;
+  background-color: rgba(93, 255, 0, 0.15);
+  color: var(--primary-color);
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.controls-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.last-updated {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+}
+
+.score-controls {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.control-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.control-btn:hover {
+  background-color: rgba(93, 255, 0, 0.1);
+  color: var(--primary-color);
+}
+
+.control-icon {
+  margin-right: 0.4rem;
+}
+
+/* Scores List */
+.scores-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.scores-list.minimized {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.score-card {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border: 1px solid var(--border-color);
+  padding: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.scores-list.minimized .score-card {
+  padding: 0.5rem;
+}
+
+.score-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.teams-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.team h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+.scores-list.minimized .team h3 {
+  font-size: 0.85rem;
+}
+
+.score {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.scores-list.minimized .score {
+  font-size: 1.5rem;
+}
+
+.winner .score {
+  color: var(--primary-color);
+}
+
+.vs {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin: 0 0.5rem;
+}
+
+.match-status {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+/* Login Prompt */
+.login-prompt {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  padding: 1.5rem;
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
+
+.lock-icon {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.login-prompt p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Loading Spinner */
+.spinner {
+  margin: 2rem auto;
+  width: 70px;
+  text-align: center;
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: var(--primary-color);
+  border-radius: 100%;
+  display: inline-block;
+  animation: bounce 1.4s infinite ease-in-out both;
+  margin: 0 3px;
+}
+
+.spinner .bounce1 {
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  animation-delay: -0.16s;
+}
+
+@keyframes bounce {
+  0%, 80%, 100% { 
+    transform: scale(0);
+  } 40% { 
+    transform: scale(1.0);
+  }
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.empty-state .empty-icon {
+  font-size: 2rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  opacity: 0.5;
+}
+
+.empty-state p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+/* Error State */
+.error-container {
+  background-color: rgba(255, 109, 63, 0.1);
+  border-left: 4px solid var(--danger-color);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.error-container .icon-container {
+  color: var(--danger-color);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.error-container h3 {
+  color: var(--danger-color);
+  margin-bottom: 0.3rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .tournament-meta {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .controls-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  
+  .score-controls {
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .scores-list,
+  .scores-list.minimized {
+    grid-template-columns: 1fr;
+  }
+  
+  .teams-container {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 480px) {
+  .control-text {
+    display: none;
+  }
+  
+  .control-icon {
+    margin-right: 0;
+  }
+  
+  .control-btn {
+    padding: 0.3rem;
+    width: 36px;
+    height: 36px;
+  }
+}

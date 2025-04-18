@@ -1,0 +1,50 @@
+[
+  {
+    "email": "john.smith@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
+    "role": "judge",
+    "_id": "60d5ec9af682727af861234a"
+  },
+  {
+    "email": "jane.doe@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
+    "role": "judge",
+    "_id": "60d5ec9af682727af861234b"
+  },
+  {
+    "email": "bob.jones@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
+    "role": "judge",
+    "_id": "60d5ec9af682727af861234c"
+  },
+  {
+    "email": "sarah.williams@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
+    "role": "judge",
+    "_id": "60d5ec9af682727af861234d"
+  },
+  {
+    "email": "michael.brown@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
+    "role": "judge",
+    "_id": "60d5ec9af682727af861234e"
+  },
+  {
+    "email": "eventmaster@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
+    "role": "organizer",
+    "_id": "60d5ec9af682727af861234f"
+  },
+  {
+    "email": "sportschampions@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
+    "role": "organizer",
+    "_id": "60d5ec9af682727af8612350"
+  },
+  {
+    "email": "olympicscoordinator@example.com",
+    "password": "$2a$10$7JTxyM5r6BmJwFfF7Cee3OqGU3NfHS3n/B4kJy80XaUHDz2klT4tW",
+    "role": "organizer",
+    "_id": "60d5ec9af682727af8612351"
+  }
+]

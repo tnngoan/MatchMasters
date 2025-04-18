@@ -1,4 +1,4 @@
-# Judge-ing
+# MatchMasters
 
 A platform connecting judges with event organizers for competitions and events.
 
